@@ -15,6 +15,49 @@
 		2536ACE41CBCEAB300B21F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2536ACE21CBCEAB300B21F65 /* LaunchScreen.storyboard */; };
 		2536ACEF1CBCEAB300B21F65 /* VisualGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536ACEE1CBCEAB300B21F65 /* VisualGraphTests.swift */; };
 		2536ACFA1CBCEAB300B21F65 /* VisualGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536ACF91CBCEAB300B21F65 /* VisualGraphUITests.swift */; };
+		2536AD081CBCEB6E00B21F65 /* VGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD071CBCEB6E00B21F65 /* VGPoint.swift */; };
+		2536AD0A1CBCEBFD00B21F65 /* VGOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD091CBCEBFD00B21F65 /* VGOperators.swift */; };
+		2536AD0C1CBCEEEE00B21F65 /* VGAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0B1CBCEEEE00B21F65 /* VGAxis.swift */; };
+		2536AD0E1CBCF30600B21F65 /* VGEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0D1CBCF30600B21F65 /* VGEdge.swift */; };
+		2536AD101CBCF35F00B21F65 /* VGFacet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0F1CBCF35F00B21F65 /* VGFacet.swift */; };
+		2536AD121CBCF3D200B21F65 /* VGObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD111CBCF3D200B21F65 /* VGObject.swift */; };
+		2536AD141CBCF68600B21F65 /* VGFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD131CBCF68600B21F65 /* VGFileManager.swift */; };
+		2536AD161CBCF6F200B21F65 /* VGFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD151CBCF6F200B21F65 /* VGFile.swift */; };
+		2536AD181CBCF7CC00B21F65 /* VGObjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD171CBCF7CC00B21F65 /* VGObjectFile.swift */; };
+		2536AD201CBCFD1A00B21F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD1F1CBCFD1A00B21F65 /* AppDelegate.swift */; };
+		2536AD221CBCFD1A00B21F65 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD211CBCFD1A00B21F65 /* GameViewController.swift */; };
+		2536AD241CBCFD1A00B21F65 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD231CBCFD1A00B21F65 /* Shaders.metal */; };
+		2536AD261CBCFD1A00B21F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2536AD251CBCFD1A00B21F65 /* Assets.xcassets */; };
+		2536AD291CBCFD1A00B21F65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2536AD271CBCFD1A00B21F65 /* MainMenu.xib */; };
+		2536AD341CBCFD1A00B21F65 /* VisualGraphMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD331CBCFD1A00B21F65 /* VisualGraphMacTests.swift */; };
+		2536AD3F1CBCFD1A00B21F65 /* VisualGraphMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD3E1CBCFD1A00B21F65 /* VisualGraphMacUITests.swift */; };
+		2536AD531CBCFD4300B21F65 /* VGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD071CBCEB6E00B21F65 /* VGPoint.swift */; };
+		2536AD541CBCFD4300B21F65 /* VGAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0B1CBCEEEE00B21F65 /* VGAxis.swift */; };
+		2536AD551CBCFD4300B21F65 /* VGOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD091CBCEBFD00B21F65 /* VGOperators.swift */; };
+		2536AD561CBCFD4300B21F65 /* VGEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0D1CBCF30600B21F65 /* VGEdge.swift */; };
+		2536AD571CBCFD4300B21F65 /* VGFacet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0F1CBCF35F00B21F65 /* VGFacet.swift */; };
+		2536AD581CBCFD4300B21F65 /* VGObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD111CBCF3D200B21F65 /* VGObject.swift */; };
+		2536AD591CBCFD4300B21F65 /* VGFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD131CBCF68600B21F65 /* VGFileManager.swift */; };
+		2536AD5A1CBCFD4300B21F65 /* VGFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD151CBCF6F200B21F65 /* VGFile.swift */; };
+		2536AD5B1CBCFD4300B21F65 /* VGObjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD171CBCF7CC00B21F65 /* VGObjectFile.swift */; };
+		2536AD5C1CBCFD4500B21F65 /* VGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD071CBCEB6E00B21F65 /* VGPoint.swift */; };
+		2536AD5D1CBCFD4500B21F65 /* VGAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0B1CBCEEEE00B21F65 /* VGAxis.swift */; };
+		2536AD5E1CBCFD4500B21F65 /* VGOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD091CBCEBFD00B21F65 /* VGOperators.swift */; };
+		2536AD5F1CBCFD4500B21F65 /* VGEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0D1CBCF30600B21F65 /* VGEdge.swift */; };
+		2536AD601CBCFD4500B21F65 /* VGFacet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0F1CBCF35F00B21F65 /* VGFacet.swift */; };
+		2536AD611CBCFD4500B21F65 /* VGObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD111CBCF3D200B21F65 /* VGObject.swift */; };
+		2536AD621CBCFD4500B21F65 /* VGFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD131CBCF68600B21F65 /* VGFileManager.swift */; };
+		2536AD631CBCFD4500B21F65 /* VGFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD151CBCF6F200B21F65 /* VGFile.swift */; };
+		2536AD641CBCFD4500B21F65 /* VGObjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD171CBCF7CC00B21F65 /* VGObjectFile.swift */; };
+		2536AD651CBCFD4600B21F65 /* VGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD071CBCEB6E00B21F65 /* VGPoint.swift */; };
+		2536AD661CBCFD4600B21F65 /* VGAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0B1CBCEEEE00B21F65 /* VGAxis.swift */; };
+		2536AD671CBCFD4600B21F65 /* VGOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD091CBCEBFD00B21F65 /* VGOperators.swift */; };
+		2536AD681CBCFD4600B21F65 /* VGEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0D1CBCF30600B21F65 /* VGEdge.swift */; };
+		2536AD691CBCFD4600B21F65 /* VGFacet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD0F1CBCF35F00B21F65 /* VGFacet.swift */; };
+		2536AD6A1CBCFD4600B21F65 /* VGObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD111CBCF3D200B21F65 /* VGObject.swift */; };
+		2536AD6B1CBCFD4600B21F65 /* VGFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD131CBCF68600B21F65 /* VGFileManager.swift */; };
+		2536AD6C1CBCFD4600B21F65 /* VGFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD151CBCF6F200B21F65 /* VGFile.swift */; };
+		2536AD6D1CBCFD4600B21F65 /* VGObjectFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536AD171CBCF7CC00B21F65 /* VGObjectFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +74,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2536ACD31CBCEAB300B21F65;
 			remoteInfo = VisualGraph;
+		};
+		2536AD301CBCFD1A00B21F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2536ACCC1CBCEAB300B21F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2536AD1C1CBCFD1A00B21F65;
+			remoteInfo = VisualGraphMac;
+		};
+		2536AD3B1CBCFD1A00B21F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2536ACCC1CBCEAB300B21F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2536AD1C1CBCFD1A00B21F65;
+			remoteInfo = VisualGraphMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +106,28 @@
 		2536ACF51CBCEAB300B21F65 /* VisualGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2536ACF91CBCEAB300B21F65 /* VisualGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualGraphUITests.swift; sourceTree = "<group>"; };
 		2536ACFB1CBCEAB300B21F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2536AD071CBCEB6E00B21F65 /* VGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VGPoint.swift; path = ../VGPoint.swift; sourceTree = "<group>"; };
+		2536AD091CBCEBFD00B21F65 /* VGOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGOperators.swift; sourceTree = "<group>"; };
+		2536AD0B1CBCEEEE00B21F65 /* VGAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGAxis.swift; sourceTree = "<group>"; };
+		2536AD0D1CBCF30600B21F65 /* VGEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGEdge.swift; sourceTree = "<group>"; };
+		2536AD0F1CBCF35F00B21F65 /* VGFacet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGFacet.swift; sourceTree = "<group>"; };
+		2536AD111CBCF3D200B21F65 /* VGObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGObject.swift; sourceTree = "<group>"; };
+		2536AD131CBCF68600B21F65 /* VGFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGFileManager.swift; sourceTree = "<group>"; };
+		2536AD151CBCF6F200B21F65 /* VGFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGFile.swift; sourceTree = "<group>"; };
+		2536AD171CBCF7CC00B21F65 /* VGObjectFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGObjectFile.swift; sourceTree = "<group>"; };
+		2536AD1D1CBCFD1A00B21F65 /* VisualGraphMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualGraphMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2536AD1F1CBCFD1A00B21F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2536AD211CBCFD1A00B21F65 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2536AD231CBCFD1A00B21F65 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		2536AD251CBCFD1A00B21F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2536AD281CBCFD1A00B21F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2536AD2A1CBCFD1A00B21F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2536AD2F1CBCFD1A00B21F65 /* VisualGraphMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualGraphMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2536AD331CBCFD1A00B21F65 /* VisualGraphMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualGraphMacTests.swift; sourceTree = "<group>"; };
+		2536AD351CBCFD1A00B21F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2536AD3A1CBCFD1A00B21F65 /* VisualGraphMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualGraphMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2536AD3E1CBCFD1A00B21F65 /* VisualGraphMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualGraphMacUITests.swift; sourceTree = "<group>"; };
+		2536AD401CBCFD1A00B21F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +152,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2536AD1A1CBCFD1A00B21F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD2C1CBCFD1A00B21F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD371CBCFD1A00B21F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +182,9 @@
 				2536ACD61CBCEAB300B21F65 /* VisualGraph */,
 				2536ACED1CBCEAB300B21F65 /* VisualGraphTests */,
 				2536ACF81CBCEAB300B21F65 /* VisualGraphUITests */,
+				2536AD1E1CBCFD1A00B21F65 /* VisualGraphMac */,
+				2536AD321CBCFD1A00B21F65 /* VisualGraphMacTests */,
+				2536AD3D1CBCFD1A00B21F65 /* VisualGraphMacUITests */,
 				2536ACD51CBCEAB300B21F65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +195,9 @@
 				2536ACD41CBCEAB300B21F65 /* VisualGraph.app */,
 				2536ACEA1CBCEAB300B21F65 /* VisualGraphTests.xctest */,
 				2536ACF51CBCEAB300B21F65 /* VisualGraphUITests.xctest */,
+				2536AD1D1CBCFD1A00B21F65 /* VisualGraphMac.app */,
+				2536AD2F1CBCFD1A00B21F65 /* VisualGraphMacTests.xctest */,
+				2536AD3A1CBCFD1A00B21F65 /* VisualGraphMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +205,15 @@
 		2536ACD61CBCEAB300B21F65 /* VisualGraph */ = {
 			isa = PBXGroup;
 			children = (
+				2536AD071CBCEB6E00B21F65 /* VGPoint.swift */,
+				2536AD0B1CBCEEEE00B21F65 /* VGAxis.swift */,
+				2536AD091CBCEBFD00B21F65 /* VGOperators.swift */,
+				2536AD0D1CBCF30600B21F65 /* VGEdge.swift */,
+				2536AD0F1CBCF35F00B21F65 /* VGFacet.swift */,
+				2536AD111CBCF3D200B21F65 /* VGObject.swift */,
+				2536AD131CBCF68600B21F65 /* VGFileManager.swift */,
+				2536AD151CBCF6F200B21F65 /* VGFile.swift */,
+				2536AD171CBCF7CC00B21F65 /* VGObjectFile.swift */,
 				2536ACD71CBCEAB300B21F65 /* AppDelegate.swift */,
 				2536ACD91CBCEAB300B21F65 /* GameViewController.swift */,
 				2536ACDB1CBCEAB300B21F65 /* Shaders.metal */,
@@ -126,6 +241,37 @@
 				2536ACFB1CBCEAB300B21F65 /* Info.plist */,
 			);
 			path = VisualGraphUITests;
+			sourceTree = "<group>";
+		};
+		2536AD1E1CBCFD1A00B21F65 /* VisualGraphMac */ = {
+			isa = PBXGroup;
+			children = (
+				2536AD1F1CBCFD1A00B21F65 /* AppDelegate.swift */,
+				2536AD211CBCFD1A00B21F65 /* GameViewController.swift */,
+				2536AD231CBCFD1A00B21F65 /* Shaders.metal */,
+				2536AD251CBCFD1A00B21F65 /* Assets.xcassets */,
+				2536AD271CBCFD1A00B21F65 /* MainMenu.xib */,
+				2536AD2A1CBCFD1A00B21F65 /* Info.plist */,
+			);
+			path = VisualGraphMac;
+			sourceTree = "<group>";
+		};
+		2536AD321CBCFD1A00B21F65 /* VisualGraphMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				2536AD331CBCFD1A00B21F65 /* VisualGraphMacTests.swift */,
+				2536AD351CBCFD1A00B21F65 /* Info.plist */,
+			);
+			path = VisualGraphMacTests;
+			sourceTree = "<group>";
+		};
+		2536AD3D1CBCFD1A00B21F65 /* VisualGraphMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2536AD3E1CBCFD1A00B21F65 /* VisualGraphMacUITests.swift */,
+				2536AD401CBCFD1A00B21F65 /* Info.plist */,
+			);
+			path = VisualGraphMacUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +330,59 @@
 			productReference = 2536ACF51CBCEAB300B21F65 /* VisualGraphUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2536AD1C1CBCFD1A00B21F65 /* VisualGraphMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2536AD411CBCFD1A00B21F65 /* Build configuration list for PBXNativeTarget "VisualGraphMac" */;
+			buildPhases = (
+				2536AD191CBCFD1A00B21F65 /* Sources */,
+				2536AD1A1CBCFD1A00B21F65 /* Frameworks */,
+				2536AD1B1CBCFD1A00B21F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualGraphMac;
+			productName = VisualGraphMac;
+			productReference = 2536AD1D1CBCFD1A00B21F65 /* VisualGraphMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2536AD2E1CBCFD1A00B21F65 /* VisualGraphMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2536AD441CBCFD1A00B21F65 /* Build configuration list for PBXNativeTarget "VisualGraphMacTests" */;
+			buildPhases = (
+				2536AD2B1CBCFD1A00B21F65 /* Sources */,
+				2536AD2C1CBCFD1A00B21F65 /* Frameworks */,
+				2536AD2D1CBCFD1A00B21F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2536AD311CBCFD1A00B21F65 /* PBXTargetDependency */,
+			);
+			name = VisualGraphMacTests;
+			productName = VisualGraphMacTests;
+			productReference = 2536AD2F1CBCFD1A00B21F65 /* VisualGraphMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2536AD391CBCFD1A00B21F65 /* VisualGraphMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2536AD471CBCFD1A00B21F65 /* Build configuration list for PBXNativeTarget "VisualGraphMacUITests" */;
+			buildPhases = (
+				2536AD361CBCFD1A00B21F65 /* Sources */,
+				2536AD371CBCFD1A00B21F65 /* Frameworks */,
+				2536AD381CBCFD1A00B21F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2536AD3C1CBCFD1A00B21F65 /* PBXTargetDependency */,
+			);
+			name = VisualGraphMacUITests;
+			productName = VisualGraphMacUITests;
+			productReference = 2536AD3A1CBCFD1A00B21F65 /* VisualGraphMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +395,7 @@
 				TargetAttributes = {
 					2536ACD31CBCEAB300B21F65 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9YM229TRTM;
 					};
 					2536ACE91CBCEAB300B21F65 = {
 						CreatedOnToolsVersion = 7.3;
@@ -204,6 +404,17 @@
 					2536ACF41CBCEAB300B21F65 = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 2536ACD31CBCEAB300B21F65;
+					};
+					2536AD1C1CBCFD1A00B21F65 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2536AD2E1CBCFD1A00B21F65 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2536AD1C1CBCFD1A00B21F65;
+					};
+					2536AD391CBCFD1A00B21F65 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2536AD1C1CBCFD1A00B21F65;
 					};
 				};
 			};
@@ -223,6 +434,9 @@
 				2536ACD31CBCEAB300B21F65 /* VisualGraph */,
 				2536ACE91CBCEAB300B21F65 /* VisualGraphTests */,
 				2536ACF41CBCEAB300B21F65 /* VisualGraphUITests */,
+				2536AD1C1CBCFD1A00B21F65 /* VisualGraphMac */,
+				2536AD2E1CBCFD1A00B21F65 /* VisualGraphMacTests */,
+				2536AD391CBCFD1A00B21F65 /* VisualGraphMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +466,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2536AD1B1CBCFD1A00B21F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2536AD261CBCFD1A00B21F65 /* Assets.xcassets in Resources */,
+				2536AD291CBCFD1A00B21F65 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD2D1CBCFD1A00B21F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD381CBCFD1A00B21F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,9 +496,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2536AD121CBCF3D200B21F65 /* VGObject.swift in Sources */,
+				2536AD181CBCF7CC00B21F65 /* VGObjectFile.swift in Sources */,
+				2536AD101CBCF35F00B21F65 /* VGFacet.swift in Sources */,
+				2536AD0A1CBCEBFD00B21F65 /* VGOperators.swift in Sources */,
+				2536AD0C1CBCEEEE00B21F65 /* VGAxis.swift in Sources */,
 				2536ACDC1CBCEAB300B21F65 /* Shaders.metal in Sources */,
 				2536ACDA1CBCEAB300B21F65 /* GameViewController.swift in Sources */,
+				2536AD141CBCF68600B21F65 /* VGFileManager.swift in Sources */,
 				2536ACD81CBCEAB300B21F65 /* AppDelegate.swift in Sources */,
+				2536AD161CBCF6F200B21F65 /* VGFile.swift in Sources */,
+				2536AD0E1CBCF30600B21F65 /* VGEdge.swift in Sources */,
+				2536AD081CBCEB6E00B21F65 /* VGPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +515,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2536AD5E1CBCFD4500B21F65 /* VGOperators.swift in Sources */,
 				2536ACEF1CBCEAB300B21F65 /* VisualGraphTests.swift in Sources */,
+				2536AD601CBCFD4500B21F65 /* VGFacet.swift in Sources */,
+				2536AD641CBCFD4500B21F65 /* VGObjectFile.swift in Sources */,
+				2536AD5F1CBCFD4500B21F65 /* VGEdge.swift in Sources */,
+				2536AD5D1CBCFD4500B21F65 /* VGAxis.swift in Sources */,
+				2536AD5C1CBCFD4500B21F65 /* VGPoint.swift in Sources */,
+				2536AD621CBCFD4500B21F65 /* VGFileManager.swift in Sources */,
+				2536AD611CBCFD4500B21F65 /* VGObject.swift in Sources */,
+				2536AD631CBCFD4500B21F65 /* VGFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +533,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				2536ACFA1CBCEAB300B21F65 /* VisualGraphUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD191CBCFD1A00B21F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2536AD581CBCFD4300B21F65 /* VGObject.swift in Sources */,
+				2536AD5B1CBCFD4300B21F65 /* VGObjectFile.swift in Sources */,
+				2536AD571CBCFD4300B21F65 /* VGFacet.swift in Sources */,
+				2536AD241CBCFD1A00B21F65 /* Shaders.metal in Sources */,
+				2536AD541CBCFD4300B21F65 /* VGAxis.swift in Sources */,
+				2536AD551CBCFD4300B21F65 /* VGOperators.swift in Sources */,
+				2536AD221CBCFD1A00B21F65 /* GameViewController.swift in Sources */,
+				2536AD591CBCFD4300B21F65 /* VGFileManager.swift in Sources */,
+				2536AD201CBCFD1A00B21F65 /* AppDelegate.swift in Sources */,
+				2536AD5A1CBCFD4300B21F65 /* VGFile.swift in Sources */,
+				2536AD561CBCFD4300B21F65 /* VGEdge.swift in Sources */,
+				2536AD531CBCFD4300B21F65 /* VGPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD2B1CBCFD1A00B21F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2536AD671CBCFD4600B21F65 /* VGOperators.swift in Sources */,
+				2536AD341CBCFD1A00B21F65 /* VisualGraphMacTests.swift in Sources */,
+				2536AD691CBCFD4600B21F65 /* VGFacet.swift in Sources */,
+				2536AD6D1CBCFD4600B21F65 /* VGObjectFile.swift in Sources */,
+				2536AD681CBCFD4600B21F65 /* VGEdge.swift in Sources */,
+				2536AD661CBCFD4600B21F65 /* VGAxis.swift in Sources */,
+				2536AD651CBCFD4600B21F65 /* VGPoint.swift in Sources */,
+				2536AD6B1CBCFD4600B21F65 /* VGFileManager.swift in Sources */,
+				2536AD6A1CBCFD4600B21F65 /* VGObject.swift in Sources */,
+				2536AD6C1CBCFD4600B21F65 /* VGFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2536AD361CBCFD1A00B21F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2536AD3F1CBCFD1A00B21F65 /* VisualGraphMacUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +592,16 @@
 			isa = PBXTargetDependency;
 			target = 2536ACD31CBCEAB300B21F65 /* VisualGraph */;
 			targetProxy = 2536ACF61CBCEAB300B21F65 /* PBXContainerItemProxy */;
+		};
+		2536AD311CBCFD1A00B21F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2536AD1C1CBCFD1A00B21F65 /* VisualGraphMac */;
+			targetProxy = 2536AD301CBCFD1A00B21F65 /* PBXContainerItemProxy */;
+		};
+		2536AD3C1CBCFD1A00B21F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2536AD1C1CBCFD1A00B21F65 /* VisualGraphMac */;
+			targetProxy = 2536AD3B1CBCFD1A00B21F65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -311,6 +620,14 @@
 				2536ACE31CBCEAB300B21F65 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2536AD271CBCFD1A00B21F65 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2536AD281CBCFD1A00B21F65 /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,10 +722,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VisualGraph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +736,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VisualGraph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -471,6 +794,100 @@
 			};
 			name = Release;
 		};
+		2536AD421CBCFD1A00B21F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualGraphMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraphMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2536AD431CBCFD1A00B21F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualGraphMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraphMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2536AD451CBCFD1A00B21F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = VisualGraphMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraphMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualGraphMac.app/Contents/MacOS/VisualGraphMac";
+			};
+			name = Debug;
+		};
+		2536AD461CBCFD1A00B21F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualGraphMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraphMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualGraphMac.app/Contents/MacOS/VisualGraphMac";
+			};
+			name = Release;
+		};
+		2536AD481CBCFD1A00B21F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = VisualGraphMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraphMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = VisualGraphMac;
+			};
+			name = Debug;
+		};
+		2536AD491CBCFD1A00B21F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualGraphMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = pro.goforit.VisualGraphMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = VisualGraphMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -504,6 +921,30 @@
 			buildConfigurations = (
 				2536AD051CBCEAB300B21F65 /* Debug */,
 				2536AD061CBCEAB300B21F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2536AD411CBCFD1A00B21F65 /* Build configuration list for PBXNativeTarget "VisualGraphMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2536AD421CBCFD1A00B21F65 /* Debug */,
+				2536AD431CBCFD1A00B21F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2536AD441CBCFD1A00B21F65 /* Build configuration list for PBXNativeTarget "VisualGraphMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2536AD451CBCFD1A00B21F65 /* Debug */,
+				2536AD461CBCFD1A00B21F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2536AD471CBCFD1A00B21F65 /* Build configuration list for PBXNativeTarget "VisualGraphMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2536AD481CBCFD1A00B21F65 /* Debug */,
+				2536AD491CBCFD1A00B21F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>VisualGraphMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>2536ACF41CBCEAB300B21F65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2536AD1C1CBCFD1A00B21F65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2536AD2E1CBCFD1A00B21F65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2536AD391CBCFD1A00B21F65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
